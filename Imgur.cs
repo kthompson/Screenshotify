@@ -16,7 +16,7 @@ namespace Screenshotify
         public static string Post(Bitmap image)
         {
             var buffer = new MemoryStream();
-            image.Save(buffer, ImageFormat.Jpeg);
+            image.Save(buffer, ImageFormat.Jpeg, 100);
 
             return Post(buffer.ToArray());
         }

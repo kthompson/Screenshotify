@@ -46,6 +46,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BitmapExtensions.cs" />
     <Compile Include="Capture.cs" />
     <Compile Include="Main.cs">
       <SubType>Form</SubType>
